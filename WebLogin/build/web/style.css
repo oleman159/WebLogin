@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  font-size:60px;
+}
+label {
+  color: white;
+  font-size:40px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px 5px;
+}
+input[type="password"] {
+    width: 200px;
+    padding: 5px 5px;
+}
+
+#error
+{
+font-size:20px;
+}
+.errormsg
+{
+color:red;
+}
+
+.centered {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.logoutbutton {
+  position: fixed;
+  left: 93%;
+  top: 5%;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.logoutbutton:hover {
+  background-color: grey;
+  color: white;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.languagebutton {
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.languagebutton:hover {
+  background-color: grey;
+  color: white;
+}
+
+.languageselected {
+  background-color: grey;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.topright {
+  position: fixed;
+  left: 80%;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
